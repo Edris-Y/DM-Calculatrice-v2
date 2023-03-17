@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Calculatrice</h1>
+      <h3>Fait par Edris Youssef</h3>
+    </div>
+    <div class="calculator">
+      <input type="text" id="result" disabled>
+      <div class="case1">
+        <button onclick="clearResult()">AC</button>
+        <button onclick="deleteResult()">DEL</button>
+      </div>
+      <div class="grid-main">
+        
+      
+       
+         <div class="grid-fruits">
+            <button onclick="buttonClicked('1')">1</button>
+            <button onclick="buttonClicked('2')">2</button>
+            <button onclick="buttonClicked('3')">3</button>
+
+            <button onclick="buttonClicked('4')">4</button>
+            <button onclick="buttonClicked('5')">5</button>
+            <button onclick="buttonClicked('6')">6</button>
+
+            <button onclick="buttonClicked('7')">7</button>
+            <button onclick="buttonClicked('8')">8</button>
+            <button onclick="buttonClicked('9')">9</button>
+
+            <button onclick="buttonClicked('.')">.</button>
+            <button onclick="buttonClicked('0')">0</button>
+            <button onclick="calculate()">=</button>
+          
+        </div>
+
+        <div class="grid-transports">
+          <button onclick="buttonClicked('/')">/</button>
+          <button onclick="buttonClicked('*')">*</button>
+          <button onclick="buttonClicked('-')">-</button>
+          <button onclick="buttonClicked('+')">+</button>
+        </div>
+
+       
+       
+      </div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
